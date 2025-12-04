@@ -8,18 +8,6 @@ public class NavinSirFace {
 
 		{
 			{
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 
 				{
 					int n = 6;
