@@ -1,10 +1,21 @@
 
 package oops1;
 
+class plane {
+
+}
+
+class Bigplane extends plane {
+
+}
+
 class Animal {
 
-	public void running() {
+	public plane running() {
 		System.out.println("animal is running");
+		plane p = new plane();
+		return p;
+
 	}
 
 	void eating() {
@@ -20,13 +31,17 @@ class Animal {
 
 class Tiger extends Animal {
 
-	public void running() {
-		System.out.println("animal is running"); // if we write 'default' but in parent 'public' we do not decrese the
-													// visibity of
-													// access specifier ......... public --- default not posibiles
+	public Bigplane running() {
+		System.out.println("animal iiiis running");// if we write 'default' but in parent 'public' we do not decrese the
+		Bigplane bp = new Bigplane();
+		return bp;
+		// visibity of
+		// access specifier ......... public --- default not posibiles
 	}
 
-	public void eating() {
+	public void eating(String Name)
+	// it a method overloading of specalized class
+	{
 		System.out.println("animal is eating"); // we can increase the visibity of access specifier " default --> public
 												// ".
 	}
@@ -37,6 +52,7 @@ class Tiger extends Animal {
 
 	void tigeronly() {
 		System.out.println("Tiger only method");
+
 	}
 }
 
@@ -46,5 +62,7 @@ public class MethodOverridding {
 		t.eating();
 		t.running();
 //t.craving(); // private member of class is not excuted conductor in case of inheritances
+
+		// we also do not change the primitive return type of parent
 	}
 }

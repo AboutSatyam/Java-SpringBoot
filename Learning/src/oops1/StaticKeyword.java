@@ -56,8 +56,7 @@ public class StaticKeyword {
 //		System.out.println("Staic block main class method");
 //		System.out.println("***********************************");
 //	}
-//	cd Users\Jyoti\Desktop\Git Folder
-	
+
 	public static void main(String[] args) {
 		// demo d1 = new demo();
 		// In static object is not needed .
