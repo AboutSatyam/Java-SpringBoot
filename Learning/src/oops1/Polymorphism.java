@@ -12,36 +12,36 @@ class Plane2 {
 }
 
 class CargoPlane2 extends Plane2 {
-	public void takeOff() {
-		System.out.println("CargoPlane is requires longer runway to take off......");
-	}
+//	public void takeOff() {
+//		System.out.println("CargoPlane is requires longer runway to take off......");
+//	}
+//
 
-	@Override
-	public void landing() {
-		System.out.println("Cargo plane requires longer runway to land.....");
-	}
+//	public void landing() {
+//		System.out.println("Cargo plane requires longer runway to land.....");
+//	}
 
 }
 
 class FighterPlane2 extends Plane2 {
-	public void takeOff() {
-		System.out.println("FighterPlane is requires shorter runway to take off......");
-	}
-
-	public void landing() {
-		System.out.println("Fighter plane requires shorter runway to land.....");
-	}
+//	public void takeOff() {
+//		System.out.println("FighterPlane is requires shorter runway to take off......");
+//	}
+//
+//	public void landing() {
+//		System.out.println("Fighter plane requires shorter runway to land.....");
+//	}
 
 }
 
 class PassengerPlane2 extends Plane2 {
-	public void takeOff() {
-		System.out.println("PassengerPlane is requires medium runway to take off......");
-	}
-
-	public void landing() {
-		System.out.println("Passenger plane requires medium size runway to land.....");
-	}
+//	public void takeOff() {
+//		System.out.println("PassengerPlane is requires medium runway to take off......");
+//	}
+//
+//	public void landing() {
+//		System.out.println("Passenger plane requires medium size runway to land.....");
+//	}
 
 }
 
